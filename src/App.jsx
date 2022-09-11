@@ -23,8 +23,6 @@ function App() {
     getNews();
   }, []);
 
-  console.log(news);
-
   return (
     <div className="App">
       <button className="btn btn-primary">Button</button>
