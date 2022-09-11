@@ -16,7 +16,7 @@ function App() {
 
         setNews(response.articles);
       } catch (e) {
-        console.log(error.message);
+        console.log(e.message);
       }
     }
 
